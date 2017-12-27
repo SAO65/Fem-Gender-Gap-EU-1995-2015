@@ -1,0 +1,110 @@
+rei_id,rei,rei_name,rei_name_short,rei_type_id,rei_type,parent_id,path_to_top_parent,level,sort_order
+169,_all,All risk factors,All risk factors,1,Risk,169,169,0,1
+171,eti,Etiologies,Etiologies,2,Etiology,171,"171,171",0,5
+191,imp,Impairments,Impairments,3,Impairment,191,"191,191",0,6
+192,imp_anemia,Anemia,Anemia,3,Impairment,191,"191,192",1,101
+203,_behav,Behavioral risks,Behavioral,1,Risk,169,"169,203",1,3
+172,eti_diarrhea,Diarrheal disease etiologies,Diarrhea etiologies,2,Etiology,171,"171,172",1,82
+202,_env,Environmental/occupational risks,Environmental,1,Risk,169,"169,202",1,2
+193,imp_epilepsy,Epilepsy,Epilepsy,3,Impairment,191,"191,193",1,102
+194,imp_gbs,Guillain-Barré syndrome,Guillain-Barré syndrome,3,Impairment,191,"191,194",1,103
+195,imp_hearing,Hearing loss,Hearing loss,3,Impairment,191,"191,195",1,104
+196,imp_hf,Heart failure,Heart failure,3,Impairment,191,"191,196",1,105
+198,imp_infertility,Infertility,Infertility,3,Impairment,191,"191,198",1,106
+197,imp_id,Developmental intellectual disability,Intellectual disability,3,Impairment,191,"191,197",1,107
+186,eti_lri,Lower respiratory infection etiologies,LRI etiologies,2,Etiology,171,"171,186",1,96
+104,metab,Metabolic risks,Metabolic,1,Risk,169,"169,104",1,4
+199,imp_pid,Pelvic inflammatory disease,Pelvic inflammatory,3,Impairment,191,"191,199",1,108
+200,imp_vision,Vision loss,Vision loss,3,Impairment,191,"191,200",1,109
+185,eti_diarrhea_adenovirus,Adenovirus,Adenovirus,2,Etiology,172,"171,172,185",2,83
+182,eti_diarrhea_aeromonas,Aeromonas,Aeromonas,2,Etiology,172,"171,172,182",2,84
+85,air,Air pollution,Air pollution,1,Risk,202,"169,202,85",2,7
+101,drugs,Alcohol and drug use,Alcohol & drug use,1,Risk,203,"169,203,101",2,39
+179,eti_diarrhea_amoebiasis,Amoebiasis,Amoebiasis,2,Etiology,172,"171,172,179",2,85
+178,eti_diarrhea_campylobac,Campylobacter enteritis,Campylobacter enteritis,2,Etiology,172,"171,172,178",2,86
+92,nutrition,Child and maternal malnutrition,Malnutrition,1,Risk,203,"169,203,92",2,42
+173,eti_diarrhea_cholera,Cholera,Cholera,2,Etiology,172,"171,172,173",2,87
+183,eti_diarrhea_clostridium,Clostridium difficile,Clostridium difficile,2,Etiology,172,"171,172,183",2,88
+180,eti_diarrhea_cryptospor,Cryptosporidiosis,Cryptosporidiosis,2,Etiology,172,"171,172,180",2,89
+110,diet,Dietary risks,Dietary risks,1,Risk,203,"169,203,110",2,53
+176,eti_diarrhea_epec,Enteropathogenic E coli infection,Enteropathogenic E coli,2,Etiology,172,"171,172,176",2,90
+177,eti_diarrhea_etec,Enterotoxigenic E coli infection,Enterotoxigenic E coli,2,Etiology,172,"171,172,177",2,91
+189,eti_lri_hib,H influenzae type B pneumonia,HiB pneumonia,2,Etiology,186,"171,186,189",2,97
+108,metab_bmi,High body-mass index,High body-mass index,1,Risk,104,"169,104,108",2,76
+105,metab_fpg,High fasting plasma glucose,High fasting plasma glucose,1,Risk,104,"169,104,105",2,77
+107,metab_sbp,High systolic blood pressure,High blood pressure,1,Risk,104,"169,104,107",2,78
+106,metab_cholesterol,High total cholesterol,High total cholesterol,1,Risk,104,"169,104,106",2,79
+187,eti_lri_flu,Influenza,Influenza,2,Etiology,186,"171,186,187",2,98
+109,metab_bmd,Low bone mineral density,Low bone mineral density,1,Risk,104,"169,104,109",2,80
+143,metab_gfr,Low glomerular filtration rate,Low glomerular filtration,1,Risk,104,"169,104,143",2,81
+125,activity,Low physical activity,Low physical activity,1,Risk,203,"169,203,125",2,68
+184,eti_diarrhea_norovirus,Norovirus,Norovirus,2,Etiology,172,"171,172,184",2,92
+126,occ,Occupational risks,Occupational risks,1,Risk,202,"169,202,126",2,11
+89,envir,Other environmental risks,Other environmental,1,Risk,202,"169,202,89",2,32
+174,eti_diarrhea_salmonella,Other salmonella infections,Salmonella,2,Etiology,172,"171,172,174",2,93
+188,eti_lri_pneumo,Pneumococcal pneumonia,Pneumococcal pneumonia,2,Etiology,186,"171,186,188",2,99
+190,eti_lri_rsv,Respiratory syncytial virus pneumonia,RSV pneumonia,2,Etiology,186,"171,186,190",2,100
+181,eti_diarrhea_rotavirus,Rotaviral enteritis,Rotaviral enteritis,2,Etiology,172,"171,172,181",2,94
+133,abuse,Sexual abuse and violence,Sexual abuse & violence,1,Risk,203,"169,203,133",2,69
+175,eti_diarrhea_shigellosis,Shigellosis,Shigellosis,2,Etiology,172,"171,172,175",2,95
+98,smoking,Tobacco smoke,Tobacco,1,Risk,203,"169,203,98",2,72
+170,unsafe_sex,Unsafe sex,Unsafe sex,1,Risk,203,"169,203,170",2,75
+82,wash,"Unsafe water, sanitation, and handwashing",WaSH,1,Risk,202,"169,202,82",2,35
+102,drugs_alcohol,Alcohol use,Alcohol use,1,Risk,101,"169,203,101,102",3,40
+88,air_ozone,Ambient ozone pollution,Ozone,1,Risk,85,"169,202,85,88",3,8
+86,air_pm,Ambient particulate matter pollution,Ambient particulate matter,1,Risk,85,"169,202,85,86",3,9
+134,abuse_csa,Childhood sexual abuse,Childhood sexual abuse,1,Risk,133,"169,203,133,134",3,70
+239,nutrition_child,Childhood undernutrition,Childhood undernutrition,1,Risk,92,"169,203,92,239",3,43
+117,diet_procmeat,Diet high in processed meat,High processed meat,1,Risk,110,"169,203,110,117",3,60
+116,diet_redmeat,Diet high in red meat,High red meat,1,Risk,110,"169,203,110,116",3,59
+124,diet_salt,Diet high in sodium,High sodium,1,Risk,110,"169,203,110,124",3,67
+118,diet_ssb,Diet high in sugar-sweetened beverages,High sweetened beverages,1,Risk,110,"169,203,110,118",3,61
+123,diet_transfat,Diet high in trans fatty acids,High trans fat,1,Risk,110,"169,203,110,123",3,66
+119,diet_fiber,Diet low in fiber,Low fiber,1,Risk,110,"169,203,110,119",3,62
+111,diet_fruit,Diet low in fruits,Low fruit,1,Risk,110,"169,203,110,111",3,54
+115,diet_milk,Diet low in milk,Low milk,1,Risk,110,"169,203,110,115",3,58
+114,diet_nuts,Diet low in nuts and seeds,Low nuts and seeds,1,Risk,110,"169,203,110,114",3,57
+122,diet_pufa,Diet low in polyunsaturated fatty acids,Low PUFA,1,Risk,110,"169,203,110,122",3,65
+121,diet_fish,Diet low in seafood omega-3 fatty acids,Low omega-3,1,Risk,110,"169,203,110,121",3,64
+112,diet_veg,Diet low in vegetables,Low vegetables,1,Risk,110,"169,203,110,112",3,55
+113,diet_grains,Diet low in whole grains,Low whole grains,1,Risk,110,"169,203,110,113",3,56
+120,diet_calcium,Diet suboptimal in calcium,Suboptimal calcium,1,Risk,110,"169,203,110,120",3,63
+103,drugs_illicit,Drug use,Drug use,1,Risk,101,"169,203,101,103",3,41
+87,air_hap,Household air pollution from solid fuels,Household air pollution,1,Risk,85,"169,202,85,87",3,10
+135,abuse_ipv,Intimate partner violence,Intimate partner violence,1,Risk,133,"169,203,133,135",3,71
+95,nutrition_iron,Iron deficiency,Iron deficiency,1,Risk,92,"169,203,92,95",3,47
+91,envir_lead,Lead exposure,Lead,1,Risk,89,"169,202,89,91",3,33
+238,wash_hygiene,No handwashing with soap,Handwashing,1,Risk,82,"169,202,82,238",3,36
+128,occ_asthmagens,Occupational asthmagens,Occupational asthmagens,1,Risk,126,"169,202,126,128",3,12
+127,occ_carcino,Occupational carcinogens,Occupational carcinogens,1,Risk,126,"169,202,126,127",3,13
+132,occ_backpain,Occupational ergonomic factors,Occupational ergonomic,1,Risk,126,"169,202,126,132",3,28
+131,occ_injury,Occupational injuries,Occupational injury,1,Risk,126,"169,202,126,131",3,29
+130,occ_hearing,Occupational noise,Occupational noise,1,Risk,126,"169,202,126,130",3,30
+129,occ_particulates,"Occupational particulate matter, gases, and fumes",Occupational particulates,1,Risk,126,"169,202,126,129",3,31
+90,envir_radon,Residential radon,Radon,1,Risk,89,"169,202,89,90",3,34
+100,smoking_shs,Secondhand smoke,Secondhand smoke,1,Risk,98,"169,203,98,100",3,74
+99,smoking_direct,Smoking,Smoking,1,Risk,98,"169,203,98,99",3,73
+93,nutrition_breast,Suboptimal breastfeeding,Suboptimal breastfeeding,1,Risk,92,"169,203,92,93",3,48
+84,wash_sanitation,Unsafe sanitation,Unsafe sanitation,1,Risk,82,"169,202,82,84",3,37
+83,wash_water,Unsafe water source,Unsafe water,1,Risk,82,"169,202,82,83",3,38
+96,nutrition_vitamina,Vitamin A deficiency,Vitamin A deficiency,1,Risk,92,"169,203,92,96",3,51
+97,nutrition_zinc,Zinc deficiency,Zinc deficiency,1,Risk,92,"169,203,92,97",3,52
+241,nutrition_stunting,Childhood stunting,Childhood stunting,1,Risk,239,"169,203,92,239,241",4,46
+94,nutrition_underweight,Childhood underweight,Childhood underweight,1,Risk,239,"169,203,92,239,94",4,44
+240,nutrition_wasting,Childhood wasting,Childhood wasting,1,Risk,239,"169,203,92,239,240",4,45
+137,nutrition_breast_disc,Discontinued breastfeeding,Discontinued breastfeeding,1,Risk,93,"169,203,92,93,137",4,49
+136,nutrition_breast_nonexc,Non-exclusive breastfeeding,Partial breastfeeding,1,Risk,93,"169,203,92,93,136",4,50
+151,occ_carcino_arsenic,Occupational exposure to arsenic,Occupational arsenic,1,Risk,127,"169,202,126,127,151",4,14
+150,occ_carcino_asbestos,Occupational exposure to asbestos,Occupational asbestos,1,Risk,127,"169,202,126,127,150",4,15
+152,occ_carcino_benzene,Occupational exposure to benzene,Occupational benzene,1,Risk,127,"169,202,126,127,152",4,16
+153,occ_carcino_beryllium,Occupational exposure to beryllium,Occupational beryllium,1,Risk,127,"169,202,126,127,153",4,17
+154,occ_carcino_cadmium,Occupational exposure to cadmium,Occupational cadmium,1,Risk,127,"169,202,126,127,154",4,18
+155,occ_carcino_chromium,Occupational exposure to chromium,Occupational chromium,1,Risk,127,"169,202,126,127,155",4,19
+156,occ_carcino_diesel,Occupational exposure to diesel engine exhaust,Occupational diesel,1,Risk,127,"169,202,126,127,156",4,20
+158,occ_carcino_formaldehyde,Occupational exposure to formaldehyde,Occupational formaldehyde,1,Risk,127,"169,202,126,127,158",4,21
+159,occ_carcino_nickel,Occupational exposure to nickel,Occupational nickel,1,Risk,127,"169,202,126,127,159",4,22
+160,occ_carcino_pah,Occupational exposure to polycyclic aromatic hydrocarbons,Occupational PAH,1,Risk,127,"169,202,126,127,160",4,23
+157,occ_carcino_smoke,Occupational exposure to secondhand smoke,Occupational SHS,1,Risk,127,"169,202,126,127,157",4,24
+161,occ_carcino_silica,Occupational exposure to silica,Occupational silica,1,Risk,127,"169,202,126,127,161",4,25
+162,occ_carcino_acid,Occupational exposure to sulfuric acid,Occupational sulfuric acid,1,Risk,127,"169,202,126,127,162",4,26
+237,occ_carcino_trichloroethylene,Occupational exposure to trichloroethylene,Occupational trichloroethylene,1,Risk,127,"169,202,126,127,237",4,27

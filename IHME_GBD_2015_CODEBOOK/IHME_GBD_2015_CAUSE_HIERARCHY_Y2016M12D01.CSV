@@ -1,0 +1,317 @@
+cause_id,acause,cause_name,cause_medium,cause_short,cause_outline,parent_id,path_to_top_parent,level,sort_order,yll_only,yld_only
+294,_all,All causes,All causes,All causes,NULL,294,294,0,1,NULL,NULL
+295,_comm,"Communicable, maternal, neonatal, and nutritional diseases",Group I,Group I,A,294,"294,295",1,2,NULL,NULL
+296,_hivtb,HIV/AIDS and tuberculosis,HIV/AIDS & tuberculosis,HIV+TB,A.1,295,"294,295,296",2,3,NULL,NULL
+297,tb,Tuberculosis,Tuberculosis,TB,A.1.1,296,"294,295,296,297",3,4,NULL,NULL
+298,hiv,HIV/AIDS,HIV/AIDS,HIV,A.1.2,296,"294,295,296,298",3,5,NULL,NULL
+299,hiv_tb,HIV/AIDS - Tuberculosis,HIV/AIDS - TB,HIV - TB,A.1.2.1,298,"294,295,296,298,299",4,6,NULL,NULL
+300,hiv_other,HIV/AIDS resulting in other diseases,HIV/AIDS other,Oth HIV,A.1.2.2,298,"294,295,296,298,300",4,7,NULL,NULL
+301,_childinf,"Diarrhea, lower respiratory, and other common infectious diseases",Diarrhea/LRI/other,Diar+LRI+Oth,A.2,295,"294,295,301",2,8,NULL,NULL
+302,diarrhea,Diarrheal diseases,Diarrheal diseases,Diarrhea,A.2.1,301,"294,295,301,302",3,9,NULL,NULL
+318,intest,Intestinal infectious diseases,Intestinal infectious,Intest Inf,A.2.2,301,"294,295,301,318",3,10,NULL,NULL
+319,intest_typhoid,Typhoid fever,Typhoid fever,Typhoid,A.2.2.1,318,"294,295,301,318,319",4,11,NULL,NULL
+320,intest_paratyph,Paratyphoid fever,Paratyphoid fever,Paratyph,A.2.2.2,318,"294,295,301,318,320",4,12,NULL,NULL
+321,intest_other,Other intestinal infectious diseases,Other intestinal infect,Oth Intest,A.2.2.3,318,"294,295,301,318,321",4,13,NULL,NULL
+322,lri,Lower respiratory infections,Lower respiratory infect,LRI,A.2.3,301,"294,295,301,322",3,14,NULL,NULL
+328,uri,Upper respiratory infections,Upper respiratory infect,URI,A.2.4,301,"294,295,301,328",3,15,NULL,NULL
+329,otitis,Otitis media,Otitis media,Otitis,A.2.5,301,"294,295,301,329",3,16,NULL,NULL
+332,meningitis,Meningitis,Meningitis,Meningitis,A.2.6,301,"294,295,301,332",3,17,NULL,NULL
+333,meningitis_pneumo,Pneumococcal meningitis,Pneumo meningitis,Mng Pne,A.2.6.1,332,"294,295,301,332,333",4,18,NULL,NULL
+334,meningitis_hib,H influenzae type B meningitis,HIB meningitis,Mng HiB,A.2.6.2,332,"294,295,301,332,334",4,19,NULL,NULL
+335,meningitis_meningo,Meningococcal meningitis,Meningo meningitis,Mng Men,A.2.6.3,332,"294,295,301,332,335",4,20,NULL,NULL
+336,meningitis_other,Other meningitis,Other meningitis,Oth Mng,A.2.6.4,332,"294,295,301,332,336",4,21,NULL,NULL
+337,encephalitis,Encephalitis,Encephalitis,Encepha,A.2.7,301,"294,295,301,337",3,22,NULL,NULL
+338,diptheria,Diphtheria,Diphtheria,Diphtheria,A.2.8,301,"294,295,301,338",3,23,NULL,NULL
+339,whooping,Whooping cough,Whooping cough,Whooping,A.2.9,301,"294,295,301,339",3,24,NULL,NULL
+340,tetanus,Tetanus,Tetanus,Tetanus,A.2.10,301,"294,295,301,340",3,25,NULL,NULL
+341,measles,Measles,Measles,Measles,A.2.11,301,"294,295,301,341",3,26,NULL,NULL
+342,varicella,Varicella and herpes zoster,Varicella,Varicella,A.2.12,301,"294,295,301,342",3,27,NULL,NULL
+344,_ntd,Neglected tropical diseases and malaria,NTDs & malaria,NTD+Malaria,A.3,295,"294,295,344",2,28,NULL,NULL
+345,malaria,Malaria,Malaria,Malaria,A.3.1,344,"294,295,344,345",3,29,NULL,NULL
+346,ntd_chagas,Chagas disease,Chagas disease,Chagas,A.3.2,344,"294,295,344,346",3,30,NULL,NULL
+347,ntd_leish,Leishmaniasis,Leishmaniasis,Leish,A.3.3,344,"294,295,344,347",3,31,NULL,NULL
+348,ntd_leish_visc,Visceral leishmaniasis,Visceral leishmaniasis,Vis Leish,A.3.3.1,347,"294,295,344,347,348",4,32,NULL,NULL
+349,ntd_leish_cut,Cutaneous and mucocutaneous leishmaniasis,Cutaneous leishmaniasis,Cut Leish,A.3.3.2,347,"294,295,344,347,349",4,33,NULL,1
+350,ntd_afrtryp,African trypanosomiasis,African trypanosomiasis,Afr Tryp,A.3.4,344,"294,295,344,350",3,34,NULL,NULL
+351,ntd_schisto,Schistosomiasis,Schistosomiasis,Schisto,A.3.5,344,"294,295,344,351",3,35,NULL,NULL
+352,ntd_cysticer,Cysticercosis,Cysticercosis,Cysticer,A.3.6,344,"294,295,344,352",3,36,NULL,NULL
+353,ntd_echino,Cystic echinococcosis,Cystic echinococcosis,Echino,A.3.7,344,"294,295,344,353",3,37,NULL,NULL
+354,ntd_lf,Lymphatic filariasis,Lymphatic filariasis,LF,A.3.8,344,"294,295,344,354",3,38,NULL,1
+355,ntd_oncho,Onchocerciasis,Onchocerciasis,Oncho,A.3.9,344,"294,295,344,355",3,39,NULL,1
+356,ntd_trachoma,Trachoma,Trachoma,Trachoma,A.3.10,344,"294,295,344,356",3,40,NULL,1
+357,ntd_dengue,Dengue,Dengue,Dengue,A.3.11,344,"294,295,344,357",3,41,NULL,NULL
+358,ntd_yellowfever,Yellow fever,Yellow fever,Yellow Fev,A.3.12,344,"294,295,344,358",3,42,NULL,NULL
+359,ntd_rabies,Rabies,Rabies,Rabies,A.3.13,344,"294,295,344,359",3,43,NULL,NULL
+360,ntd_nema,Intestinal nematode infections,Intestinal nematode,Nematode,A.3.14,344,"294,295,344,360",3,44,NULL,NULL
+361,ntd_nema_ascar,Ascariasis,Ascariasis,Ascaria,A.3.14.1,360,"294,295,344,360,361",4,45,NULL,NULL
+362,ntd_nema_trichur,Trichuriasis,Trichuriasis,Trichuria,A.3.14.2,360,"294,295,344,360,362",4,46,NULL,1
+363,ntd_nema_hook,Hookworm disease,Hookworm disease,Hookworm,A.3.14.3,360,"294,295,344,360,363",4,47,NULL,1
+364,ntd_foodborne,Food-borne trematodiases,Food-borne trematodiases,FB Trema,A.3.15,344,"294,295,344,364",3,48,NULL,1
+405,leprosy,Leprosy,Leprosy,Leprosy,A.3.16,344,"294,295,344,405",3,49,NULL,1
+843,ntd_ebola,Ebola,Ebola,Ebola,A.3.17,344,"294,295,344,843",3,50,NULL,NULL
+365,ntd_other,Other neglected tropical diseases,Other NTDs,Oth NTD,A.3.19,344,"294,295,344,365",3,51,NULL,NULL
+366,maternal,Maternal disorders,Maternal disorders,Maternal,A.4,295,"294,295,366",2,52,NULL,NULL
+367,maternal_hem,Maternal hemorrhage,Maternal hemorrhage,Mat Hem,A.4.1,366,"294,295,366,367",3,53,NULL,NULL
+368,maternal_sepsis,Maternal sepsis and other maternal infections,Maternal sepsis,Mat Sepsis,A.4.2,366,"294,295,366,368",3,54,NULL,NULL
+369,maternal_htn,Maternal hypertensive disorders,Maternal hypertension,Mat HTN,A.4.3,366,"294,295,366,369",3,55,NULL,NULL
+370,maternal_obstruct,Maternal obstructed labor and uterine rupture,Obstructed labor,Obst Labor,A.4.4,366,"294,295,366,370",3,56,NULL,NULL
+371,maternal_abort,"Maternal abortion, miscarriage, and ectopic pregnancy",Complication abort,Comp Abort,A.4.5,366,"294,295,366,371",3,57,NULL,NULL
+375,maternal_indirect,Indirect maternal deaths,Maternal indirect,Mat Indir,A.4.6,366,"294,295,366,375",3,58,1,NULL
+376,maternal_late,Late maternal deaths,Maternal late,Mat Late,A.4.7,366,"294,295,366,376",3,59,1,NULL
+741,maternal_hiv,Maternal deaths aggravated by HIV/AIDS,Maternal HIV,Mat HIV,A.4.8,366,"294,295,366,741",3,60,1,NULL
+379,maternal_other,Other maternal disorders,Other maternal disorders,Oth Mat,A.4.9,366,"294,295,366,379",3,61,NULL,NULL
+380,neonatal,Neonatal disorders,Neonatal disorders,Neonatal,A.5,295,"294,295,380",2,62,NULL,NULL
+381,neonatal_preterm,Neonatal preterm birth complications,Neonatal preterm birth,NN Preterm,A.5.1,380,"294,295,380,381",3,63,NULL,NULL
+382,neonatal_enceph,Neonatal encephalopathy due to birth asphyxia and trauma,Neonatal encephalopathy,NN Enceph,A.5.2,380,"294,295,380,382",3,64,NULL,NULL
+383,neonatal_sepsis,Neonatal sepsis and other neonatal infections,Neonatal sepsis,NN Sepsis,A.5.3,380,"294,295,380,383",3,65,NULL,NULL
+384,neonatal_hemolytic,Hemolytic disease and other neonatal jaundice,Neonatal hemolytic,NN Hemol,A.5.4,380,"294,295,380,384",3,66,NULL,NULL
+385,neonatal_other,Other neonatal disorders,Other neonatal,Oth NN,A.5.5,380,"294,295,380,385",3,67,NULL,NULL
+386,nutrition,Nutritional deficiencies,Nutritional deficiencies,Nutr Def,A.6,295,"294,295,386",2,68,NULL,NULL
+387,nutrition_pem,Protein-energy malnutrition,Protein-energy malnutrition,PEM,A.6.1,386,"294,295,386,387",3,69,NULL,NULL
+388,nutrition_iodine,Iodine deficiency,Iodine deficiency,Iodine,A.6.2,386,"294,295,386,388",3,70,NULL,NULL
+389,nutrition_vitamina,Vitamin A deficiency,Vitamin A deficiency,Vit A,A.6.3,386,"294,295,386,389",3,71,NULL,1
+390,nutrition_iron,Iron-deficiency anemia,Iron-deficiency anemia,Iron,A.6.4,386,"294,295,386,390",3,72,NULL,NULL
+391,nutrition_other,Other nutritional deficiencies,Other nutritional,Oth Nutr ,A.6.5,386,"294,295,386,391",3,73,NULL,NULL
+392,_othercomm,"Other communicable, maternal, neonatal, and nutritional diseases",Other group I,Oth Group I,A.7,295,"294,295,392",2,74,NULL,NULL
+393,std,Sexually transmitted diseases excluding HIV,STDs,STD,A.7.1,392,"294,295,392,393",3,75,NULL,NULL
+394,std_syphilis,Syphilis,Syphilis,Syphilis,A.7.1.1,393,"294,295,392,393,394",4,76,NULL,NULL
+395,std_chlamydia,Chlamydial infection,Chlamydia,Chlamydia,A.7.1.2,393,"294,295,392,393,395",4,77,NULL,NULL
+396,std_gonnorhea,Gonococcal infection,Gonnorhea,Gonnorhea,A.7.1.3,393,"294,295,392,393,396",4,78,NULL,NULL
+397,std_tricho,Trichomoniasis,Trichomoniasis,Trich,A.7.1.4,393,"294,295,392,393,397",4,79,NULL,1
+398,std_herpes,Genital herpes,Genital herpes,Herpes,A.7.1.5,393,"294,295,392,393,398",4,80,NULL,1
+399,std_other,Other sexually transmitted diseases,Other STDs,Oth STD,A.7.1.6,393,"294,295,392,393,399",4,81,NULL,NULL
+400,hepatitis,Hepatitis,Hepatitis,Hep,A.7.2,392,"294,295,392,400",3,82,NULL,NULL
+401,hepatitis_a,Acute hepatitis A,Hepatitis A,Hep A,A.7.2.1,400,"294,295,392,400,401",4,83,NULL,NULL
+402,hepatitis_b,Hepatitis B,Hepatitis B,Hep B,A.7.2.2,400,"294,295,392,400,402",4,84,NULL,NULL
+403,hepatitis_c,Hepatitis C,Hepatitis C,Hep C,A.7.2.3,400,"294,295,392,400,403",4,85,NULL,NULL
+404,hepatitis_e,Acute hepatitis E,Hepatitis E,Hep E,A.7.2.4,400,"294,295,392,400,404",4,86,NULL,NULL
+408,infectious,Other infectious diseases,Other infectious,Oth Inf,A.7.3,392,"294,295,392,408",3,87,NULL,NULL
+409,_ncd,Non-communicable diseases,Non-communicable,NCD,B,294,"294,409",1,88,NULL,NULL
+410,_neo,Neoplasms,Neoplasms,Neoplasms,B.1,409,"294,409,410",2,89,NULL,NULL
+444,neo_mouth,Lip and oral cavity cancer,Lip oral cavity cancer,Lip Oral C,B.1.1,410,"294,409,410,444",3,90,NULL,NULL
+447,neo_nasopharynx,Nasopharynx cancer,Nasopharynx cancer,Nasoph C,B.1.2,410,"294,409,410,447",3,91,NULL,NULL
+450,neo_otherpharynx,Other pharynx cancer,Other pharynx cancer,Oth Phar C,B.1.3,410,"294,409,410,450",3,92,NULL,NULL
+411,neo_esophageal,Esophageal cancer,Esophageal cancer,Esophag C,B.1.4,410,"294,409,410,411",3,93,NULL,NULL
+414,neo_stomach,Stomach cancer,Stomach cancer,Stomach C,B.1.5,410,"294,409,410,414",3,94,NULL,NULL
+441,neo_colorectal,Colon and rectum cancer,Colorectal cancer,Colorect C,B.1.6,410,"294,409,410,441",3,95,NULL,NULL
+417,neo_liver,Liver cancer,Liver cancer,Liver C,B.1.7,410,"294,409,410,417",3,96,NULL,NULL
+418,neo_liver_hepb,Liver cancer due to hepatitis B,Liver cancer hepatitis B,Liver C HepB,B.1.7.1,417,"294,409,410,417,418",4,97,NULL,NULL
+419,neo_liver_hepc,Liver cancer due to hepatitis C,Liver cancer hepatitis C,Liver C HepC,B.1.7.2,417,"294,409,410,417,419",4,98,NULL,NULL
+420,neo_liver_alcohol,Liver cancer due to alcohol use,Liver cancer alcohol,Liver C Alc,B.1.7.3,417,"294,409,410,417,420",4,99,NULL,NULL
+421,neo_liver_other,Liver cancer due to other causes,Liver cancer other,Oth Liver C,B.1.7.4,417,"294,409,410,417,421",4,100,NULL,NULL
+453,neo_gallbladder,Gallbladder and biliary tract cancer,Gallbladder cancer,Gallblad C,B.1.8,410,"294,409,410,453",3,101,NULL,NULL
+456,neo_pancreas,Pancreatic cancer,Pancreatic cancer,Pancreas C,B.1.9,410,"294,409,410,456",3,102,NULL,NULL
+423,neo_larynx,Larynx cancer,Larynx cancer,Larynx C,B.1.10,410,"294,409,410,423",3,103,NULL,NULL
+426,neo_lung,"Tracheal, bronchus, and lung cancer",Lung cancer,Lung C,B.1.11,410,"294,409,410,426",3,104,NULL,NULL
+459,neo_melanoma,Malignant skin melanoma,Melanoma,Melanoma,B.1.12,410,"294,409,410,459",3,105,NULL,NULL
+462,neo_nmsc,Non-melanoma skin cancer,Skin cancer,Skin C,B.1.13,410,"294,409,410,462",3,106,NULL,NULL
+849,neo_nmsc_scc,Non-melanoma skin cancer (squamous-cell carcinoma),Skin cancer SCC,SCC,B.1.13.1,462,"294,409,410,462,849",4,107,NULL,NULL
+850,neo_nmsc_bcc,Non-melanoma skin cancer (basal-cell carcinoma),Skin cancer BCC,BCC,B.1.13.2,462,"294,409,410,462,850",4,108,NULL,1
+429,neo_breast,Breast cancer,Breast cancer,Breast C,B.1.14,410,"294,409,410,429",3,109,NULL,NULL
+432,neo_cervical,Cervical cancer,Cervical cancer,Cervix C,B.1.15,410,"294,409,410,432",3,110,NULL,NULL
+435,neo_uterine,Uterine cancer,Uterine cancer,Uterus C,B.1.16,410,"294,409,410,435",3,111,NULL,NULL
+465,neo_ovarian,Ovarian cancer,Ovarian cancer,Ovary C,B.1.17,410,"294,409,410,465",3,112,NULL,NULL
+438,neo_prostate,Prostate cancer,Prostate cancer,Prostate C,B.1.18,410,"294,409,410,438",3,113,NULL,NULL
+468,neo_testicular,Testicular cancer,Testicular cancer,Testis C,B.1.19,410,"294,409,410,468",3,114,NULL,NULL
+471,neo_kidney,Kidney cancer,Kidney cancer,Kidney C,B.1.20,410,"294,409,410,471",3,115,NULL,NULL
+474,neo_bladder,Bladder cancer,Bladder cancer,Bladder C,B.1.21,410,"294,409,410,474",3,116,NULL,NULL
+477,neo_brain,Brain and nervous system cancer,Brain cancer,Brain C,B.1.22,410,"294,409,410,477",3,117,NULL,NULL
+480,neo_thyroid,Thyroid cancer,Thyroid cancer,Thyroid C,B.1.23,410,"294,409,410,480",3,118,NULL,NULL
+483,neo_meso,Mesothelioma,Mesothelioma,Mesothel,B.1.24,410,"294,409,410,483",3,119,NULL,NULL
+484,neo_hodgkins,Hodgkin lymphoma,Hodgkin lymphoma,Hodgkin,B.1.25,410,"294,409,410,484",3,120,NULL,NULL
+485,neo_lymphoma,Non-Hodgkin lymphoma,Lymphoma,Lymphoma,B.1.26,410,"294,409,410,485",3,121,NULL,NULL
+486,neo_myeloma,Multiple myeloma,Myeloma,Myeloma,B.1.27,410,"294,409,410,486",3,122,NULL,NULL
+487,neo_leukemia,Leukemia,Leukemia,Leukemia,B.1.28,410,"294,409,410,487",3,123,NULL,NULL
+845,neo_leukemia_ll_acute,Acute lymphoid leukemia,Acute lymphoid leukemia,ALL,B.1.28.1,487,"294,409,410,487,845",4,124,NULL,NULL
+846,neo_leukemia_ll_chronic,Chronic lymphoid leukemia,Chronic lymphoid leukemia,CLL,B.1.28.2,487,"294,409,410,487,846",4,125,NULL,NULL
+847,neo_leukemia_ml_acute,Acute myeloid leukemia,Acute myeloid leukemia,AML,B.1.28.3,487,"294,409,410,487,847",4,126,NULL,NULL
+848,neo_leukemia_ml_chronic,Chronic myeloid leukemia,Chronic myeloid leukemia,CML,B.1.28.4,487,"294,409,410,487,848",4,127,NULL,NULL
+488,neo_other,Other neoplasms,Other neoplasms,Oth Neopla,B.1.29,410,"294,409,410,488",3,128,NULL,NULL
+491,cvd,Cardiovascular diseases,Cardiovascular diseases,CVD,B.2,409,"294,409,491",2,129,NULL,NULL
+492,cvd_rhd,Rheumatic heart disease,Rheumatic heart disease,RHD,B.2.1,491,"294,409,491,492",3,130,NULL,NULL
+493,cvd_ihd,Ischemic heart disease,Ischemic heart disease,IHD,B.2.2,491,"294,409,491,493",3,131,NULL,NULL
+494,cvd_stroke,Cerebrovascular disease,Cerebrovascular disease,Stroke,B.2.3,491,"294,409,491,494",3,132,NULL,NULL
+495,cvd_stroke_isch,Ischemic stroke,Ischemic stroke,Isch Stroke,B.2.3.1,494,"294,409,491,494,495",4,133,NULL,NULL
+496,cvd_stroke_cerhem,Hemorrhagic stroke,Hemorrhagic stroke,Hem Stroke,B.2.3.2,494,"294,409,491,494,496",4,134,NULL,NULL
+498,cvd_htn,Hypertensive heart disease,Hypertensive heart disease,HTN HD,B.2.4,491,"294,409,491,498",3,135,NULL,NULL
+499,cvd_cmp,Cardiomyopathy and myocarditis,Cardiomyopathy,CMP,B.2.5,491,"294,409,491,499",3,136,NULL,NULL
+500,cvd_afib,Atrial fibrillation and flutter,Atrial fibrillation,A Fib,B.2.6,491,"294,409,491,500",3,137,NULL,NULL
+501,cvd_aortic,Aortic aneurysm,Aortic aneurysm,Aort An,B.2.7,491,"294,409,491,501",3,138,1,NULL
+502,cvd_pvd,Peripheral vascular disease,Peripheral vascular,PVD,B.2.8,491,"294,409,491,502",3,139,NULL,NULL
+503,cvd_endo,Endocarditis,Endocarditis,Endocar,B.2.9,491,"294,409,491,503",3,140,NULL,NULL
+507,cvd_other,Other cardiovascular and circulatory diseases,Other cardiovascular,Oth Cardio,B.2.10,491,"294,409,491,507",3,141,NULL,NULL
+508,resp,Chronic respiratory diseases,Chronic respiratory,Chr Resp,B.3,409,"294,409,508",2,142,NULL,NULL
+509,resp_copd,Chronic obstructive pulmonary disease,COPD,COPD,B.3.1,508,"294,409,508,509",3,143,NULL,NULL
+510,resp_pneum,Pneumoconiosis,Pneumoconiosis,Pneumocon,B.3.2,508,"294,409,508,510",3,144,NULL,NULL
+511,resp_pneum_silico,Silicosis,Silicosis,Silicosis,B.3.2.1,510,"294,409,508,510,511",4,145,NULL,NULL
+512,resp_pneum_asbest,Asbestosis,Asbestosis,Asbestosis,B.3.2.2,510,"294,409,508,510,512",4,146,NULL,NULL
+513,resp_pneum_coal,Coal workers pneumoconiosis,Coal workers,Coal W,B.3.2.3,510,"294,409,508,510,513",4,147,NULL,NULL
+514,resp_pneum_other,Other pneumoconiosis,Other pneumoconiosis,Oth Pneum,B.3.2.4,510,"294,409,508,510,514",4,148,NULL,NULL
+515,resp_asthma,Asthma,Asthma,Asthma,B.3.3,508,"294,409,508,515",3,149,NULL,NULL
+516,resp_interstitial,Interstitial lung disease and pulmonary sarcoidosis,Interstitial lung disease,ILD,B.3.4,508,"294,409,508,516",3,150,NULL,NULL
+520,resp_other,Other chronic respiratory diseases,Other chronic respiratory,Oth Resp,B.3.5,508,"294,409,508,520",3,151,NULL,NULL
+521,cirrhosis,Cirrhosis and other chronic liver diseases,Cirrhosis,Cirrhosis,B.4,409,"294,409,521",2,152,NULL,NULL
+522,cirrhosis_hepb,Cirrhosis and other chronic liver diseases due to hepatitis B,Cirrhosis hepatitis B,Cirr HepB,B.4.1,521,"294,409,521,522",3,153,NULL,NULL
+523,cirrhosis_hepc,Cirrhosis and other chronic liver diseases due to hepatitis C,Cirrhosis hepatitis C,Cirr HepC,B.4.2,521,"294,409,521,523",3,154,NULL,NULL
+524,cirrhosis_alcohol,Cirrhosis and other chronic liver diseases due to alcohol use,Cirrhosis alcohol,Cirr Alc,B.4.3,521,"294,409,521,524",3,155,NULL,NULL
+525,cirrhosis_other,Cirrhosis and other chronic liver diseases due to other causes,Cirrhosis other,Oth Cirr,B.4.4,521,"294,409,521,525",3,156,NULL,NULL
+526,digest,Digestive diseases,Digestive diseases,Digestive,B.5,409,"294,409,526",2,157,NULL,NULL
+527,digest_pud,Peptic ulcer disease,Peptic ulcer disease,PUD,B.5.1,526,"294,409,526,527",3,158,NULL,NULL
+528,digest_gastrititis,Gastritis and duodenitis,Gastritis & duodenitis,Gastritis,B.5.2,526,"294,409,526,528",3,159,NULL,NULL
+529,digest_appendicitis,Appendicitis,Appendicitis,Appendicit,B.5.3,526,"294,409,526,529",3,160,NULL,NULL
+530,digest_ileus,Paralytic ileus and intestinal obstruction,Ileus & obstruction,Ileus,B.5.4,526,"294,409,526,530",3,161,NULL,NULL
+531,digest_hernia,"Inguinal, femoral, and abdominal hernia",Hernia,Hernia,B.5.5,526,"294,409,526,531",3,162,NULL,NULL
+532,digest_ibd,Inflammatory bowel disease,Inflammatory bowel,IBD,B.5.6,526,"294,409,526,532",3,163,NULL,NULL
+533,digest_vascular,Vascular intestinal disorders,Vascular intestinal,Vasc Intest,B.5.7,526,"294,409,526,533",3,164,NULL,NULL
+534,digest_bile,Gallbladder and biliary diseases,Gallbladder & biliary,Gall Bile,B.5.8,526,"294,409,526,534",3,165,NULL,NULL
+535,digest_pancreatitis,Pancreatitis,Pancreatitis,Pancreatit,B.5.9,526,"294,409,526,535",3,166,NULL,NULL
+541,digest_other,Other digestive diseases,Other digestive,Oth Digest,B.5.10,526,"294,409,526,541",3,167,NULL,NULL
+542,_neuro,Neurological disorders,Neurological disorders,Neuro,B.6,409,"294,409,542",2,168,NULL,NULL
+543,neuro_dementia,Alzheimer disease and other dementias,Alzheimer disease,Alzheimer,B.6.1,542,"294,409,542,543",3,169,NULL,NULL
+544,neuro_parkinsons,Parkinson disease,Parkinson disease,Parkinson,B.6.2,542,"294,409,542,544",3,170,NULL,NULL
+545,neuro_epilepsy,Epilepsy,Epilepsy,Epilepsy,B.6.3,542,"294,409,542,545",3,171,NULL,NULL
+546,neuro_ms,Multiple sclerosis,Multiple sclerosis,MS,B.6.4,542,"294,409,542,546",3,172,NULL,NULL
+554,neuro_neurone,Motor neuron disease,Motor neuron disease,ALS,B.6.5,542,"294,409,542,554",3,173,NULL,NULL
+547,neuro_migraine,Migraine,Migraine,Migraine,B.6.6,542,"294,409,542,547",3,174,NULL,1
+548,neuro_tensache,Tension-type headache,Tension headache,Tens Head,B.6.7,542,"294,409,542,548",3,175,NULL,1
+549,neuro_medache,Medication overuse headache,Medication headache,Med Head,B.6.8,542,"294,409,542,549",3,176,NULL,1
+557,neuro_other,Other neurological disorders,Other neurological,Oth Neuro,B.6.9,542,"294,409,542,557",3,177,NULL,NULL
+558,_mental,Mental and substance use disorders,Mental & substance use,Mental,B.7,409,"294,409,558",2,178,NULL,NULL
+559,mental_schizo,Schizophrenia,Schizophrenia,Schiz,B.7.1,558,"294,409,558,559",3,179,NULL,NULL
+560,mental_alcohol,Alcohol use disorders,Alcohol use disorders,Alcohol,B.7.2,558,"294,409,558,560",3,180,NULL,NULL
+561,mental_drug,Drug use disorders,Drug use disorders,Drugs,B.7.3,558,"294,409,558,561",3,181,NULL,NULL
+562,mental_drug_opioids,Opioid use disorders,Opioid use,Opioids,B.7.3.1,561,"294,409,558,561,562",4,182,NULL,NULL
+563,mental_drug_cocaine,Cocaine use disorders,Cocaine use,Cocaine,B.7.3.2,561,"294,409,558,561,563",4,183,NULL,NULL
+564,mental_drug_amphet,Amphetamine use disorders,Amphetamine use,Amphet,B.7.3.3,561,"294,409,558,561,564",4,184,NULL,NULL
+565,mental_drug_cannabis,Cannabis use disorders,Cannabis use,Cannabis,B.7.3.4,561,"294,409,558,561,565",4,185,NULL,1
+566,mental_drug_other,Other drug use disorders,Other drug use,Oth Drug,B.7.3.5,561,"294,409,558,561,566",4,186,NULL,NULL
+567,mental_unipolar,Depressive disorders,Depressive disorders,Depression,B.7.4,558,"294,409,558,567",3,187,NULL,1
+568,mental_unipolar_mdd,Major depressive disorder,Major depression,MDD,B.7.4.1,567,"294,409,558,567,568",4,188,NULL,1
+569,mental_unipolar_dys,Dysthymia,Dysthymia,Dysthymia,B.7.4.2,567,"294,409,558,567,569",4,189,NULL,1
+570,mental_bipolar,Bipolar disorder,Bipolar disorder,Bipolar,B.7.5,558,"294,409,558,570",3,190,NULL,1
+571,mental_anxiety,Anxiety disorders,Anxiety disorders,Anxiety,B.7.6,558,"294,409,558,571",3,191,NULL,1
+572,mental_eating,Eating disorders,Eating disorders,Eating,B.7.7,558,"294,409,558,572",3,192,NULL,NULL
+573,mental_eating_anorexia,Anorexia nervosa,Anorexia nervosa,Anorexia,B.7.7.1,572,"294,409,558,572,573",4,193,NULL,NULL
+574,mental_eating_bulimia,Bulimia nervosa,Bulimia nervosa,Bulimia ,B.7.7.2,572,"294,409,558,572,574",4,194,NULL,NULL
+575,mental_pdd,Autistic spectrum disorders,Autistic spectrum,ASD,B.7.8,558,"294,409,558,575",3,195,NULL,1
+576,mental_pdd_autism,Autism,Autism,Autism,B.7.8.1,575,"294,409,558,575,576",4,196,NULL,1
+577,mental_pdd_aspergers,Asperger syndrome and other autistic spectrum disorders,Asperger syndrome,Asperger,B.7.8.2,575,"294,409,558,575,577",4,197,NULL,1
+578,mental_adhd,Attention-deficit/hyperactivity disorder,ADHD,ADHD,B.7.9,558,"294,409,558,578",3,198,NULL,1
+579,mental_conduct,Conduct disorder,Conduct disorder,Conduct,B.7.10,558,"294,409,558,579",3,199,NULL,1
+582,mental_id,Idiopathic developmental intellectual disability,Intellectual disability,ID,B.7.11,558,"294,409,558,582",3,200,NULL,1
+585,mental_other,Other mental and substance use disorders,Other mental & substance,Oth Ment,B.7.12,558,"294,409,558,585",3,201,NULL,1
+586,_dube,"Diabetes, urogenital, blood, and endocrine diseases",Diabetes/urog/blood/endo,Diab+Urog+Hem,B.8,409,"294,409,586",2,202,NULL,NULL
+587,diabetes,Diabetes mellitus,Diabetes,Diabetes,B.8.1,586,"294,409,586,587",3,203,NULL,NULL
+588,glomerulo,Acute glomerulonephritis,Acute glomerulonephritis,AGN,B.8.2,586,"294,409,586,588",3,204,NULL,NULL
+589,ckd,Chronic kidney disease,Chronic kidney disease,CKD,B.8.3,586,"294,409,586,589",3,205,NULL,NULL
+590,ckd_diabetes,Chronic kidney disease due to diabetes mellitus,Diabetes CKD,Diab CKD,B.8.3.1,589,"294,409,586,589,590",4,206,NULL,NULL
+591,ckd_htn,Chronic kidney disease due to hypertension,Hypertensive CKD,HTN CKD,B.8.3.2,589,"294,409,586,589,591",4,207,NULL,NULL
+592,ckd_glomerulo,Chronic kidney disease due to glomerulonephritis,Glomerulonephritis CKD,GN CKD,B.8.3.3,589,"294,409,586,589,592",4,208,NULL,NULL
+593,ckd_other,Chronic kidney disease due to other causes,Other CKD,Oth CKD,B.8.3.4,589,"294,409,586,589,593",4,209,NULL,NULL
+594,urinary,Urinary diseases and male infertility,Urinary diseases,Urinary,B.8.4,586,"294,409,586,594",3,210,NULL,NULL
+595,urinary_nephritis,Interstitial nephritis and urinary tract infections,Interstitial nephritis & UTI,Int Neph,B.8.4.1,594,"294,409,586,594,595",4,211,NULL,NULL
+596,urinary_urolithiasis,Urolithiasis,Urolithiasis,Urolith,B.8.4.2,594,"294,409,586,594,596",4,212,NULL,NULL
+597,urinary_bph,Benign prostatic hyperplasia,BPH,BPH,B.8.4.3,594,"294,409,586,594,597",4,213,NULL,1
+598,urinary_maleinfert,Male infertility,Male infertility,Infert M,B.8.4.4,594,"294,409,586,594,598",4,214,NULL,1
+602,urinary_other,Other urinary diseases,Other urinary diseases,Oth Urin,B.8.4.5,594,"294,409,586,594,602",4,215,NULL,NULL
+603,gyne,Gynecological diseases,Gynecological diseases,Gyne,B.8.5,586,"294,409,586,603",3,216,NULL,NULL
+604,gyne_fibroids,Uterine fibroids,Uterine fibroids,Fibroids,B.8.5.1,603,"294,409,586,603,604",4,217,NULL,NULL
+605,gyne_polycystic,Polycystic ovarian syndrome,Polycystic ovary syndrome,PCOS,B.8.5.2,603,"294,409,586,603,605",4,218,NULL,NULL
+606,gyne_femaleinfert,Female infertility,Female infertility,Infert F,B.8.5.3,603,"294,409,586,603,606",4,219,NULL,1
+607,gyne_endometr,Endometriosis,Endometriosis,Endomet,B.8.5.4,603,"294,409,586,603,607",4,220,NULL,NULL
+608,gyne_prolapse,Genital prolapse,Genital prolapse,Prolapse,B.8.5.5,603,"294,409,586,603,608",4,221,NULL,NULL
+609,gyne_pms,Premenstrual syndrome,Premenstrual syndrome,PMS,B.8.5.6,603,"294,409,586,603,609",4,222,NULL,1
+612,gyne_other,Other gynecological diseases,Other gynecological,Oth Gyne,B.8.5.7,603,"294,409,586,603,612",4,223,NULL,NULL
+613,hemog,Hemoglobinopathies and hemolytic anemias,Hemoglobinopathies,Hemog,B.8.6,586,"294,409,586,613",3,224,NULL,NULL
+614,hemog_thalass,Thalassemias,Thalassemia,Thalass,B.8.6.1,613,"294,409,586,613,614",4,225,NULL,NULL
+837,hemog_thalasstrait,Thalassemias trait,Thalassemia trait,Thalass Trait,B.8.6.2,613,"294,409,586,613,837",4,226,NULL,1
+615,hemog_sickle,Sickle cell disorders,Sickle cell,Sickle,B.8.6.3,613,"294,409,586,613,615",4,227,NULL,NULL
+838,hemog_sickletrait,Sickle cell trait,Sickle cell trait,Sickle Trait,B.8.6.4,613,"294,409,586,613,838",4,228,NULL,1
+616,hemog_g6pd,G6PD deficiency,G6PD deficiency,G6PD,B.8.6.5,613,"294,409,586,613,616",4,229,NULL,NULL
+839,hemog_g6pdtrait,G6PD trait,G6PD trait,G6PD Trait,B.8.6.6,613,"294,409,586,613,839",4,230,NULL,1
+618,hemog_other,Other hemoglobinopathies and hemolytic anemias,Other hemoglobinopathies,Oth Hem,B.8.6.7,613,"294,409,586,613,618",4,231,NULL,NULL
+619,endo,"Endocrine, metabolic, blood, and immune disorders",Endo/metab/blood/immune,Endocrine,B.8.7,586,"294,409,586,619",3,232,NULL,NULL
+626,msk,Musculoskeletal disorders,Musculoskeletal disorders,MSK,B.9,409,"294,409,626",2,233,NULL,NULL
+627,msk_rheumarthritis,Rheumatoid arthritis,Rheumatoid arthritis,Rheu Arth,B.9.1,626,"294,409,626,627",3,234,NULL,NULL
+628,msk_osteoarthritis,Osteoarthritis,Osteoarthritis,Osteoarth,B.9.2,626,"294,409,626,628",3,235,NULL,1
+629,msk_pain,Low back and neck pain,Low back & neck pain,Back+Neck,B.9.3,626,"294,409,626,629",3,236,NULL,1
+630,msk_pain_lowback,Low back pain,Low back pain,Back Pain,B.9.3.1,629,"294,409,626,629,630",4,237,NULL,1
+631,msk_pain_neck,Neck pain,Neck pain,Neck Pain,B.9.3.2,629,"294,409,626,629,631",4,238,NULL,1
+632,msk_gout,Gout,Gout,Gout,B.9.4,626,"294,409,626,632",3,239,NULL,1
+639,msk_other,Other musculoskeletal disorders,Other musculoskeletal,Oth MSK,B.9.5,626,"294,409,626,639",3,240,NULL,NULL
+640,_otherncd,Other non-communicable diseases,Other non-communicable,Oth NCD,B.10,409,"294,409,640",2,241,NULL,NULL
+641,cong,Congenital birth defects,Congenital defects,Congenital,B.10.1,640,"294,409,640,641",3,242,NULL,NULL
+642,cong_neural,Neural tube defects,Neural tube defects,Neur Tube,B.10.1.1,641,"294,409,640,641,642",4,243,NULL,NULL
+643,cong_heart,Congenital heart anomalies,Congenital heart,Cong Heart,B.10.1.2,641,"294,409,640,641,643",4,244,NULL,NULL
+644,cong_cleft,Cleft lip and cleft palate,Cleft lip & palate,Cleft,B.10.1.3,641,"294,409,640,641,644",4,245,NULL,NULL
+645,cong_downs,Down syndrome,Down syndrome,Down,B.10.1.4,641,"294,409,640,641,645",4,246,NULL,NULL
+646,cong_turner,Turner syndrome,Turner syndrome,Turner,B.10.1.5,641,"294,409,640,641,646",4,247,NULL,1
+647,cong_klinefelter,Klinefelter syndrome,Klinefelter syndrome,Klinefelter,B.10.1.6,641,"294,409,640,641,647",4,248,NULL,1
+648,cong_chromo,Other chromosomal abnormalities,Chromosomal unbalanced,Chrom Unb,B.10.1.7,641,"294,409,640,641,648",4,249,NULL,NULL
+652,cong_other,Other congenital anomalies,Other congenital,Oth Cong,B.10.1.8,641,"294,409,640,641,652",4,250,NULL,NULL
+653,skin,Skin and subcutaneous diseases,Skin diseases,Skin,B.10.2,640,"294,409,640,653",3,251,NULL,NULL
+654,skin_eczema,Dermatitis,Dermatitis,Dermatitis,B.10.2.1,653,"294,409,640,653,654",4,252,NULL,1
+655,skin_psoriasis,Psoriasis,Psoriasis,Psoriasis,B.10.2.2,653,"294,409,640,653,655",4,253,NULL,1
+656,skin_cellulitis,Cellulitis,Cellulitis,Cellulitis,B.10.2.3,653,"294,409,640,653,656",4,254,NULL,NULL
+657,skin_bacterial,Pyoderma,Pyoderma,Pyoderma,B.10.2.4,653,"294,409,640,653,657",4,255,NULL,NULL
+658,skin_scabies,Scabies,Scabies,Scabies,B.10.2.5,653,"294,409,640,653,658",4,256,NULL,1
+659,skin_fungal,Fungal skin diseases,Fungal skin diseases,Skin Fung,B.10.2.6,653,"294,409,640,653,659",4,257,NULL,1
+660,skin_viral,Viral skin diseases,Viral skin diseases,Skin Viral,B.10.2.7,653,"294,409,640,653,660",4,258,NULL,1
+661,skin_acne,Acne vulgaris,Acne vulgaris,Acne,B.10.2.8,653,"294,409,640,653,661",4,259,NULL,1
+662,skin_alopecia,Alopecia areata,Alopecia areata,Alopecia,B.10.2.9,653,"294,409,640,653,662",4,260,NULL,1
+663,skin_pruritus,Pruritus,Pruritus,Pruritus,B.10.2.10,653,"294,409,640,653,663",4,261,NULL,1
+664,skin_urticaria,Urticaria,Urticaria,Urticaria,B.10.2.11,653,"294,409,640,653,664",4,262,NULL,1
+665,skin_decubitus,Decubitus ulcer,Decubitus ulcer,Decubitus,B.10.2.12,653,"294,409,640,653,665",4,263,NULL,NULL
+668,skin_other,Other skin and subcutaneous diseases,Other skin diseases,Oth Skin,B.10.2.13,653,"294,409,640,653,668",4,264,NULL,NULL
+669,_sense,Sense organ diseases,Sense organ diseases,Sense,B.10.3,640,"294,409,640,669",3,265,NULL,1
+670,sense_glaucoma,Glaucoma,Glaucoma,Glaucoma,B.10.3.1,669,"294,409,640,669,670",4,266,NULL,1
+671,sense_cataract,Cataract,Cataract,Cataract,B.10.3.2,669,"294,409,640,669,671",4,267,NULL,1
+672,sense_macular,Macular degeneration,Macular degeneration,Macular,B.10.3.3,669,"294,409,640,669,672",4,268,NULL,1
+673,sense_refraction,Refraction and accommodation disorders,Refraction & accomodation,Refraction,B.10.3.4,669,"294,409,640,669,673",4,269,NULL,1
+674,sense_hearing,Age-related and other hearing loss,Other hearing loss,Hearing,B.10.3.5,669,"294,409,640,669,674",4,270,NULL,1
+675,sense_vision,Other vision loss,Other vision loss,Oth Vision,B.10.3.6,669,"294,409,640,669,675",4,271,NULL,1
+679,sense_other,Other sense organ diseases,Other sense organ,Oth Sense,B.10.3.7,669,"294,409,640,669,679",4,272,NULL,1
+680,_oral,Oral disorders,Oral disorders,Oral,B.10.4,640,"294,409,640,680",3,273,NULL,1
+681,oral_decidcaries,Deciduous caries,Deciduous caries,Dec Caries,B.10.4.1,680,"294,409,640,680,681",4,274,NULL,1
+682,oral_permcaries,Permanent caries,Permanent caries,Per Caries,B.10.4.2,680,"294,409,640,680,682",4,275,NULL,1
+683,oral_perio,Periodontal diseases,Periodontal diseases,Period,B.10.4.3,680,"294,409,640,680,683",4,276,NULL,1
+684,oral_edent,Edentulism and severe tooth loss,Edentulism,Edentul,B.10.4.4,680,"294,409,640,680,684",4,277,NULL,1
+685,oral_other,Other oral disorders,Other oral disorders,Other Oral,B.10.4.5,680,"294,409,640,680,685",4,278,NULL,1
+686,sids,Sudden infant death syndrome,SIDS,SIDS,B.10.5,640,"294,409,640,686",3,279,1,NULL
+687,_inj,Injuries,Injuries,Injuries,C,294,"294,687",1,280,NULL,NULL
+688,inj_trans,Transport injuries,Transport injuries,Trans Inj,C.1,687,"294,687,688",2,281,NULL,NULL
+689,inj_trans_road,Road injuries,Road injuries,Road Inj,C.1.1,688,"294,687,688,689",3,282,NULL,NULL
+690,inj_trans_road_pedest,Pedestrian road injuries,Pedestrian road inj,Pedest,C.1.1.1,689,"294,687,688,689,690",4,283,NULL,NULL
+691,inj_trans_road_pedal,Cyclist road injuries,Cyclist road inj,Cyclist,C.1.1.2,689,"294,687,688,689,691",4,284,NULL,NULL
+692,inj_trans_road_2wheel,Motorcyclist road injuries,Motorcyclist road inj,Mot Cyc,C.1.1.3,689,"294,687,688,689,692",4,285,NULL,NULL
+693,inj_trans_road_4wheel,Motor vehicle road injuries,Motor vehicle road inj,Mot Veh,C.1.1.4,689,"294,687,688,689,693",4,286,NULL,NULL
+694,inj_trans_road_other,Other road injuries,Other road inj,Oth Road,C.1.1.5,689,"294,687,688,689,694",4,287,NULL,NULL
+695,inj_trans_other,Other transport injuries,Other transport inj,Oth Trans,C.1.2,688,"294,687,688,695",3,288,NULL,NULL
+696,_unintent,Unintentional injuries,Unintentional inj,Unint Inj,C.2,687,"294,687,696",2,289,NULL,NULL
+697,inj_falls,Falls,Falls,Falls,C.2.1,696,"294,687,696,697",3,290,NULL,NULL
+698,inj_drowning,Drowning,Drowning,Drown,C.2.2,696,"294,687,696,698",3,291,NULL,NULL
+699,inj_fires,"Fire, heat, and hot substances",Fire & heat,Fire,C.2.3,696,"294,687,696,699",3,292,NULL,NULL
+700,inj_poisoning,Poisonings,Poisonings,Poison,C.2.4,696,"294,687,696,700",3,293,NULL,NULL
+704,inj_mech,Exposure to mechanical forces,Mechanical forces,Mech,C.2.5,696,"294,687,696,704",3,294,NULL,NULL
+705,inj_mech_gun,Unintentional firearm injuries,Unintentional firearm,Mech Gun,C.2.5.1,704,"294,687,696,704,705",4,295,NULL,NULL
+706,inj_mech_suffocate,Unintentional suffocation,Unintentional suffocation,Mech Suff,C.2.5.2,704,"294,687,696,704,706",4,296,NULL,NULL
+707,inj_mech_other,Other exposure to mechanical forces,Other mechanical forces,Oth Mech,C.2.5.3,704,"294,687,696,704,707",4,297,NULL,NULL
+708,inj_medical,Adverse effects of medical treatment,Adverse medical treatment,Med Treat,C.2.6,696,"294,687,696,708",3,298,NULL,NULL
+709,inj_animal,Animal contact,Animal contact,Animal,C.2.7,696,"294,687,696,709",3,299,NULL,NULL
+710,inj_animal_venom,Venomous animal contact,Venomous animal,Venom,C.2.7.1,709,"294,687,696,709,710",4,300,NULL,NULL
+711,inj_animal_nonven,Non-venomous animal contact,Non-venomous animal,Non Ven,C.2.7.2,709,"294,687,696,709,711",4,301,NULL,NULL
+712,inj_foreign,Foreign body,Foreign body,F Body,C.2.8,696,"294,687,696,712",3,302,NULL,NULL
+713,inj_foreign_aspiration,Pulmonary aspiration and foreign body in airway,Pulmonary aspiration,F Body Asp,C.2.8.1,712,"294,687,696,712,713",4,303,NULL,NULL
+714,inj_foreign_eye,Foreign body in eyes,Foreign body in eye,F Body Eye,C.2.8.2,712,"294,687,696,712,714",4,304,NULL,1
+715,inj_foreign_other,Foreign body in other body part,Other foreign body,Oth F Body,C.2.8.3,712,"294,687,696,712,715",4,305,NULL,NULL
+842,inj_non_disaster,Environmental heat and cold exposure,Environ heat and cold,Heat + cold,C.2.9,696,"294,687,696,842",3,306,NULL,NULL
+716,inj_othunintent,Other unintentional injuries,Other unintentional,Oth Unint,C.2.10,696,"294,687,696,716",3,307,NULL,NULL
+717,_intent,Self-harm and interpersonal violence,Self-harm & violence,Self-harm & IPV,C.3,687,"294,687,717",2,308,NULL,NULL
+718,inj_suicide,Self-harm,Self-harm,Self Harm,C.3.1,717,"294,687,717,718",3,309,NULL,NULL
+724,inj_homicide,Interpersonal violence,Interpersonal violence,Violence,C.3.2,717,"294,687,717,724",3,310,NULL,NULL
+725,inj_homicide_gun,Assault by firearm,Assault firearm,Viol Gun,C.3.2.1,724,"294,687,717,724,725",4,311,NULL,NULL
+726,inj_homicide_knife,Assault by sharp object,Assault sharp object,Viol Knife,C.3.2.2,724,"294,687,717,724,726",4,312,NULL,NULL
+727,inj_homicide_other,Assault by other means,Assault other means,Oth Viol,C.3.2.3,724,"294,687,717,724,727",4,313,NULL,NULL
+728,_shock,"Forces of nature, war, and legal intervention",War & disaster,War+Disaster,C.4,687,"294,687,728",2,314,NULL,NULL
+729,inj_disaster,Exposure to forces of nature,Nature disaster,Disaster,C.4.1,728,"294,687,728,729",3,315,NULL,NULL
+730,inj_war,Collective violence and legal intervention,War & legal intervention,War,C.4.2,728,"294,687,728,730",3,316,NULL,NULL
