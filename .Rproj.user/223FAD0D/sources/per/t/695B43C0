@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3797130611",
+    "hash" : "4020056865",
     "id" : "695B43C0",
-    "lastKnownWriteTime" : 1514388972,
-    "last_content_update" : 1514388972049,
+    "lastKnownWriteTime" : 1514466080,
+    "last_content_update" : 1514466080204,
     "path" : "~/Desktop/FemGenGapEU/Fem-Gender-Gap-EU-1995-2015/Reproducible Analysis.R",
     "project_path" : "Reproducible Analysis.R",
     "properties" : {
-        "cursorPosition" : "93,0",
-        "scrollLine" : "57"
+        "cursorPosition" : "71,0",
+        "scrollLine" : "54"
     },
     "relative_order" : 1,
     "source_on_save" : false,
