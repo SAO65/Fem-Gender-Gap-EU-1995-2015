@@ -21,6 +21,8 @@ data <- read.csv("TidyData.csv")
 
 str(data)
 
+subtitle <- "Female 2015"
+
 x_Name <- "HALE.F.15"
 y_Name <- "YLD.F.15"
 
@@ -255,21 +257,29 @@ plotMCMC = function( codaSamples , data , xName=x_Name, yName=y_Name,
   
   # Data with superimposed regression lines and noise distributions:
   openGraph(width=8,height=5)
-  par( mar=c(3,3,2,1)+0.5 , mgp=c(2.1,0.8,0) )
+  par( mar=c(5.1, 4.1, 4.1, 2.1) , mgp=c(2,.5,0) )
   # Plot data values:
   postPredHDImass = 0.95
   xRang = max(x)-min(x)
   yRang = max(y)-min(y)
   xLimMult = 0.25
   yLimMult = 0.45
-  xLim= c( min(x)-xLimMult*xRang , max(x)+xLimMult*xRang )
+  xLim= c( min(x)-xLimMult*xRang , max(x)+xLimMult*xRang+.1)
   yLim= c( min(y)-yLimMult*yRang , max(y)+yLimMult*yRang )
   plot( x , y , cex=1.5 , lwd=2 , col="black" , xlim=xLim , ylim=yLim ,
         xlab="Health-Adjusted Life Expectancy" , 
         ylab="Number of Years Lived with Disease" , 
         cex.lab=1.5 ,
-        main=paste( "Data with Posterior Prediction and ",postPredHDImass*100,"% HDI" ,sep="") , 
-        cex.main=1.33  )
+        main=paste( "Data with Posterior Prediction and ",
+                    postPredHDImass*100,
+                    "% HDI",
+                    "\n :",subtitle, 
+                    sep=""),
+        cex.main=1.33,
+        axes=F)
+  
+  axis(1, col.axis="black", las=1, cex.axis=0.7, tck=-.01)
+  axis(4, col.axis="black", las=2, cex.axis=0.7, tck=-.01)
   
   
   # Superimpose a smattering of believable regression lines:

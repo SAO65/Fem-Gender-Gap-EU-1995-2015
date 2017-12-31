@@ -124,7 +124,7 @@ axis(4, col.axis="black", las=2, cex.axis=0.7, tck=-.01)
 legend(52, 12,  
        c("Year 1995 Males", "Year 1995 Females", "Year 2015 Males", "Year 2015 Females"),
        pch=c(1,1,16,16),
-       lty=c(1,1,2,2),
+       lty=c(2,2,1,1),
        cex=c(.9,.9,.9,.9),
        col=c("blue", "red","blue", "red"),
        bty = "n")
